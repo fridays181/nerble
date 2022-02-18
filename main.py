@@ -28,8 +28,12 @@ def main():
     main()
 def start():
     bars()
-    print("The goal of the game is to guess the 4 digit number")
+    print("The goal of the game is to guess the 4 digit number(There is no decimals it just ranges from 1000-9999)")
     print("Each round youll see if your number is higher or smaller than the random generated number")
     x = input(("Press enter to start:"))
-    main()
+    if x == "ethan":
+      print("you found the easter egg!")
+      main()
+    else:
+      main()
 start()
